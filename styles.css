@@ -37,3 +37,9 @@ body, a:link, a:visited, a:active{
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.transform {
+  border:20px solid yellow;
+}
+.transparent {
+  opacity: 0.1;
+}
