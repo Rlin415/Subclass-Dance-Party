@@ -22,6 +22,18 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
-  border-radius:10px;
+  border-radius: 10px;
   position:absolute;
+}
+.funkyDancer {
+  border:10px solid purple;
+  border-radius: 0px;
+  position:absolute;
+}
+.rotate45Deg {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
