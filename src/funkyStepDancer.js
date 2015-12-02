@@ -5,6 +5,7 @@ var FunkyStepDancer = function(top, left, timeBetweenSteps) {
 
 FunkyStepDancer.prototype = {
   constructor: FunkyStepDancer,
+  __proto__: FunkyDancer.prototype,
   step: function(timeBetweenSteps) {
     FunkyDancer.prototype.step.call(this, timeBetweenSteps);
     var top = Number($(this.$node).css('top').slice(0, -2));

@@ -32,4 +32,12 @@ $(document).ready(function(){
     $('body').append(dancer.$node);
   });
 
+  $('.lineupButton').on('click', function(event) {
+    var counter = 0;
+    window.dancers.forEach(function(dancer) {
+      dancer.lineup(counter);
+      counter += 40;
+    });
+  });
+
 });

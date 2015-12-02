@@ -4,6 +4,8 @@ var FunkyDancer = function (top, left, timeBetweenSteps) {
 };
 
 FunkyDancer.prototype = {
+  constructor: FunkyDancer,
+  __proto__: Dancer.prototype,
   step: function (timeBetweenSteps){
     Dancer.prototype.step.call(this, timeBetweenSteps);
     this.$node.toggleClass('rotate45Deg');

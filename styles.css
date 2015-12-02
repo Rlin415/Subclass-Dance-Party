@@ -3,8 +3,8 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
+  background-image: url('https://i.ytimg.com/vi/qcOg2biaH3w/maxresdefault.jpg')
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -42,4 +42,13 @@ body, a:link, a:visited, a:active{
 }
 .transparent {
   opacity: 0.1;
+}
+span:hover {
+  border: 50px solid;
+}
+.taylorDancer:hover {
+  border: 0;
+}
+.taylorDancer {
+  position: absolute;
 }
